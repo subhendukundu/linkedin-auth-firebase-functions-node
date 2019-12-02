@@ -1,0 +1,41 @@
+{
+  "name": "linkedin-auth-firebase-functions-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --max-warnings=0 .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "keywords": [
+    "firebase",
+    "firebase-functions",
+    "linkedin-login",
+    "linkedin-signin",
+    "linkedin-signin-with-firebase",
+    "linkedin-signin-with-firebase-functions",
+    "nodejs",
+    "linkedin-login-nodejs",
+    "linkedin-login-with-nodejs",
+    "linkedin-signin-node"
+  ],
+  "engines": {
+    "node": "10"
+  },
+  "private": true
+}
